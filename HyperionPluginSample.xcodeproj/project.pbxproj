@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		D70BCA5421C3D6A000EE5506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA5321C3D6A000EE5506 /* AppDelegate.swift */; };
 		D70BCA5621C3D6A000EE5506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA5521C3D6A000EE5506 /* ViewController.swift */; };
-		D70BCA5921C3D6A000EE5506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70BCA5721C3D6A000EE5506 /* Main.storyboard */; };
 		D70BCA5B21C3D6A300EE5506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70BCA5A21C3D6A300EE5506 /* Assets.xcassets */; };
 		D70BCA5E21C3D6A300EE5506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70BCA5C21C3D6A300EE5506 /* LaunchScreen.storyboard */; };
+		D70BCA6C21C3DBCB00EE5506 /* AttributesInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70BCA6821C3DBCB00EE5506 /* AttributesInspector.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D70BCA6D21C3DBCB00EE5506 /* SlowAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70BCA6921C3DBCB00EE5506 /* SlowAnimations.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D70BCA6E21C3DBCB00EE5506 /* HyperionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70BCA6A21C3DBCB00EE5506 /* HyperionCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D70BCA6F21C3DBCB00EE5506 /* Measurements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70BCA6B21C3DBCB00EE5506 /* Measurements.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D70BCA7221C3DC5C00EE5506 /* BoldableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7121C3DC5C00EE5506 /* BoldableLabel.swift */; };
+		D70BCA7421C3DDE000EE5506 /* ColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7321C3DDE000EE5506 /* ColorLabel.swift */; };
+		D70BCA7621C3DE8300EE5506 /* SizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7521C3DE8300EE5506 /* SizeLabel.swift */; };
+		D70BCA7921C3E13200EE5506 /* ClassNamePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7821C3E13200EE5506 /* ClassNamePlugin.swift */; };
+		D70BCA7B21C3E17400EE5506 /* ClassNamePluginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7A21C3E17400EE5506 /* ClassNamePluginModule.swift */; };
+		D70BCA7D21C3E24500EE5506 /* ClassNamePluginInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7C21C3E24500EE5506 /* ClassNamePluginInteractiveView.swift */; };
+		D70BCA7F21C3E27300EE5506 /* ClassNamePluginPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BCA7E21C3E27300EE5506 /* ClassNamePluginPopupView.swift */; };
+		D70BCA8121C3E4A800EE5506 /* HyperionConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70BCA8021C3E4A800EE5506 /* HyperionConfiguration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D70BCA5021C3D6A000EE5506 /* HyperionPluginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperionPluginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70BCA5321C3D6A000EE5506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D70BCA5521C3D6A000EE5506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D70BCA5821C3D6A000EE5506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D70BCA5A21C3D6A300EE5506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70BCA5D21C3D6A300EE5506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70BCA5F21C3D6A300EE5506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70BCA6821C3DBCB00EE5506 /* AttributesInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AttributesInspector.framework; path = Carthage/Build/iOS/AttributesInspector.framework; sourceTree = "<group>"; };
+		D70BCA6921C3DBCB00EE5506 /* SlowAnimations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlowAnimations.framework; path = Carthage/Build/iOS/SlowAnimations.framework; sourceTree = "<group>"; };
+		D70BCA6A21C3DBCB00EE5506 /* HyperionCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HyperionCore.framework; path = Carthage/Build/iOS/HyperionCore.framework; sourceTree = "<group>"; };
+		D70BCA6B21C3DBCB00EE5506 /* Measurements.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Measurements.framework; path = Carthage/Build/iOS/Measurements.framework; sourceTree = "<group>"; };
+		D70BCA7121C3DC5C00EE5506 /* BoldableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldableLabel.swift; sourceTree = "<group>"; };
+		D70BCA7321C3DDE000EE5506 /* ColorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLabel.swift; sourceTree = "<group>"; };
+		D70BCA7521C3DE8300EE5506 /* SizeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeLabel.swift; sourceTree = "<group>"; };
+		D70BCA7821C3E13200EE5506 /* ClassNamePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNamePlugin.swift; sourceTree = "<group>"; };
+		D70BCA7A21C3E17400EE5506 /* ClassNamePluginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNamePluginModule.swift; sourceTree = "<group>"; };
+		D70BCA7C21C3E24500EE5506 /* ClassNamePluginInteractiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNamePluginInteractiveView.swift; sourceTree = "<group>"; };
+		D70BCA7E21C3E27300EE5506 /* ClassNamePluginPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNamePluginPopupView.swift; sourceTree = "<group>"; };
+		D70BCA8021C3E4A800EE5506 /* HyperionConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HyperionConfiguration.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70BCA6C21C3DBCB00EE5506 /* AttributesInspector.framework in Frameworks */,
+				D70BCA6D21C3DBCB00EE5506 /* SlowAnimations.framework in Frameworks */,
+				D70BCA6E21C3DBCB00EE5506 /* HyperionCore.framework in Frameworks */,
+				D70BCA6F21C3DBCB00EE5506 /* Measurements.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 			children = (
 				D70BCA5221C3D6A000EE5506 /* HyperionPluginSample */,
 				D70BCA5121C3D6A000EE5506 /* Products */,
+				D70BCA6721C3DBCA00EE5506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,48 @@
 		D70BCA5221C3D6A000EE5506 /* HyperionPluginSample */ = {
 			isa = PBXGroup;
 			children = (
+				D70BCA7721C3E0F100EE5506 /* HYPPlugins */,
 				D70BCA5321C3D6A000EE5506 /* AppDelegate.swift */,
 				D70BCA5521C3D6A000EE5506 /* ViewController.swift */,
-				D70BCA5721C3D6A000EE5506 /* Main.storyboard */,
+				D70BCA7021C3DC2000EE5506 /* Labels */,
 				D70BCA5A21C3D6A300EE5506 /* Assets.xcassets */,
 				D70BCA5C21C3D6A300EE5506 /* LaunchScreen.storyboard */,
 				D70BCA5F21C3D6A300EE5506 /* Info.plist */,
+				D70BCA8021C3E4A800EE5506 /* HyperionConfiguration.plist */,
 			);
 			path = HyperionPluginSample;
+			sourceTree = "<group>";
+		};
+		D70BCA6721C3DBCA00EE5506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D70BCA6821C3DBCB00EE5506 /* AttributesInspector.framework */,
+				D70BCA6A21C3DBCB00EE5506 /* HyperionCore.framework */,
+				D70BCA6B21C3DBCB00EE5506 /* Measurements.framework */,
+				D70BCA6921C3DBCB00EE5506 /* SlowAnimations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70BCA7021C3DC2000EE5506 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				D70BCA7121C3DC5C00EE5506 /* BoldableLabel.swift */,
+				D70BCA7321C3DDE000EE5506 /* ColorLabel.swift */,
+				D70BCA7521C3DE8300EE5506 /* SizeLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		D70BCA7721C3E0F100EE5506 /* HYPPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				D70BCA7821C3E13200EE5506 /* ClassNamePlugin.swift */,
+				D70BCA7A21C3E17400EE5506 /* ClassNamePluginModule.swift */,
+				D70BCA7C21C3E24500EE5506 /* ClassNamePluginInteractiveView.swift */,
+				D70BCA7E21C3E27300EE5506 /* ClassNamePluginPopupView.swift */,
+			);
+			path = HYPPlugins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +133,8 @@
 			buildConfigurationList = D70BCA6221C3D6A300EE5506 /* Build configuration list for PBXNativeTarget "HyperionPluginSample" */;
 			buildPhases = (
 				D70BCA4C21C3D6A000EE5506 /* Sources */,
+				D70BCA6521C3DA8C00EE5506 /* Run Script [Carthage] */,
+				D70BCA6621C3DAE800EE5506 /* Run Script [Hyperion] */,
 				D70BCA4D21C3D6A000EE5506 /* Frameworks */,
 				D70BCA4E21C3D6A000EE5506 /* Resources */,
 			);
@@ -123,34 +186,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70BCA5E21C3D6A300EE5506 /* LaunchScreen.storyboard in Resources */,
+				D70BCA8121C3E4A800EE5506 /* HyperionConfiguration.plist in Resources */,
 				D70BCA5B21C3D6A300EE5506 /* Assets.xcassets in Resources */,
-				D70BCA5921C3D6A000EE5506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D70BCA6521C3DA8C00EE5506 /* Run Script [Carthage] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = "Run Script [Carthage]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		D70BCA6621C3DAE800EE5506 /* Run Script [Hyperion] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HyperionCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SlowAnimations.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AttributesInspector.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Measurements.framework",
+			);
+			name = "Run Script [Hyperion]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/HyperionCore.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SlowAnimations.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AttributesInspector.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Measurements.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n/usr/local/bin/carthage copy-frameworks\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D70BCA4C21C3D6A000EE5506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70BCA7221C3DC5C00EE5506 /* BoldableLabel.swift in Sources */,
+				D70BCA7621C3DE8300EE5506 /* SizeLabel.swift in Sources */,
 				D70BCA5621C3D6A000EE5506 /* ViewController.swift in Sources */,
+				D70BCA7B21C3E17400EE5506 /* ClassNamePluginModule.swift in Sources */,
+				D70BCA7421C3DDE000EE5506 /* ColorLabel.swift in Sources */,
+				D70BCA7921C3E13200EE5506 /* ClassNamePlugin.swift in Sources */,
+				D70BCA7D21C3E24500EE5506 /* ClassNamePluginInteractiveView.swift in Sources */,
 				D70BCA5421C3D6A000EE5506 /* AppDelegate.swift in Sources */,
+				D70BCA7F21C3E27300EE5506 /* ClassNamePluginPopupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D70BCA5721C3D6A000EE5506 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D70BCA5821C3D6A000EE5506 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D70BCA5C21C3D6A300EE5506 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +393,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HyperionPluginSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +414,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HyperionPluginSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
